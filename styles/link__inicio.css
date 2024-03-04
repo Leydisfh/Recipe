@@ -1,0 +1,12 @@
+.link___inicio{
+    font-family: var(--montserrat);
+    font-style: italic;
+    color: #BDBDBD;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.link___inicio a{
+    color: #BDBDBD;
+}

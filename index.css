@@ -1,0 +1,33 @@
+:root{
+    --play: "Playfair Display", serif;
+    --montserrat: "Montserrat", sans-serif;
+    --orange: #F2994A;
+
+
+}
+
+*{
+    padding: 0;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    border: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+@media screen and (min-width:1024px) {
+    body{
+        max-width: 1200px;
+        margin: auto;
+    }
+}
