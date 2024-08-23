@@ -1,0 +1,49 @@
+
+.Ingredients___container{
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    gap: 15px
+}
+
+.Ingredients___container h2, 
+.Ingredients___container h3{
+    font-family: var(--title);
+    color: #333333;
+}
+.Ingredients___container h2{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Ingredients___container h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+label{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+label p{
+    font-family: var(--text);
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+@media screen and (min-width:768px) {
+    .Ingredients-time___container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .Ingredients___container{
+        margin: auto;
+        width: 60%;
+    }
+}
