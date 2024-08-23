@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://recipe-l6hfq01ei-leydis-projects.vercel.app/">
       Solution
     </a>
     <span> | </span>
